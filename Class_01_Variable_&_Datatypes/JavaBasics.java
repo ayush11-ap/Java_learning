@@ -61,13 +61,25 @@ public class JavaBasics {
         // int product = a * b;
         // System.out.println(product);
 
-        Scanner sc = new Scanner(System.in);
-        float pi = 3.14f;
-        float radius = sc.nextFloat();
-        float area = pi * radius * radius;
-        System.out.println(area);
+        // Scanner sc = new Scanner(System.in);
+        // float pi = 3.14f;
+        // float radius = sc.nextFloat();
+        // float area = pi * radius * radius;
+        // System.out.println(area);
 
         // Completed till 6.12 Area of circle
+
+        // long a = 11;
+        // int b = a;
+        // System.out.print(b);
+
+        // Scanner sc = new Scanner(System.in);
+        // float num = sc.nextInt();
+        // System.out.println(num);
+
+        float num = 11.123f;
+        int val = (int) num;
+        System.out.println(val);
     }
 }
 
